@@ -1,0 +1,32 @@
+@charset "utf-8";
+	.NormalCharacterStyle
+{
+	font-family : Tahoma;
+	font-weight : bold;
+	font-size : 38px;
+	color : #FF6C2C;
+	color : rgb(255, 108, 44);
+	text-outline : #FF6C2C;
+	text-outline : rgb(255, 108, 44);
+}
+.calender
+{
+	background-image : url(calender.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 83px;
+	height : 83px;
+}
+.surround
+{
+	position : absolute ;
+	left : 0px;
+	top : 14px;
+	width : 342px;
+	height : 49px;
+	border-radius : 12px;
+	-moz-border-radius : 12px;
+	-webkit-border-radius : 12px;
+}
